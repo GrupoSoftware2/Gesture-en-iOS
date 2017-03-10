@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBAD91D91E722E6E00798ED3 /* ListadoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD91D81E722E6E00798ED3 /* ListadoTableViewController.swift */; };
 		FBB59BFA1E722798009649A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB59BF91E722798009649A5 /* AppDelegate.swift */; };
 		FBB59BFC1E722798009649A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB59BFB1E722798009649A5 /* ViewController.swift */; };
 		FBB59BFF1E722798009649A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB59BFD1E722798009649A5 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FBAD91D81E722E6E00798ED3 /* ListadoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListadoTableViewController.swift; path = ../ListadoTableViewController.swift; sourceTree = "<group>"; };
 		FBB59BF61E722797009649A5 /* Gesture en iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gesture en iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB59BF91E722798009649A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB59BFB1E722798009649A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		FBB59BF81E722798009649A5 /* Gesture en iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FBAD91D81E722E6E00798ED3 /* ListadoTableViewController.swift */,
 				FBB59BF91E722798009649A5 /* AppDelegate.swift */,
 				FBB59BFB1E722798009649A5 /* ViewController.swift */,
 				FBB59BFD1E722798009649A5 /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					FBB59BF51E722797009649A5 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P9PVR449G4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAD91D91E722E6E00798ED3 /* ListadoTableViewController.swift in Sources */,
 				FBB59BFC1E722798009649A5 /* ViewController.swift in Sources */,
 				FBB59BFA1E722798009649A5 /* AppDelegate.swift in Sources */,
 			);
@@ -260,7 +265,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P9PVR449G4;
 				INFOPLIST_FILE = "Gesture en iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pe.sulca.Gesture-en-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P9PVR449G4;
 				INFOPLIST_FILE = "Gesture en iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pe.sulca.Gesture-en-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +308,7 @@
 				FBB59C0A1E722798009649A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
